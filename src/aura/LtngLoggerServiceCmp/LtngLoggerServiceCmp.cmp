@@ -1,0 +1,11 @@
+<aura:component description="Logger Service Component to be used as a service in other
+    components to add logging info to a common logging service"
+                controller="LtngLoggerServiceController">
+
+    <!-- Add Log API for component -->
+    <aura:method name="addLog" action="{!c.addLog}">
+        <aura:attribute name="logMsg" type="String"/>
+        <aura:attribute name="severity" type="String"/>
+        <aura:attribute name="cmpName" type="String"/>
+    </aura:method>
+</aura:component>

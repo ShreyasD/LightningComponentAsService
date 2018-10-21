@@ -1,0 +1,8 @@
+<aura:component description="Used to show and test the logger service" implements="force:appHostable">
+    <!--Include service component to be used-->
+    <c:LtngLoggerServiceCmp aura:id="loggerService"/>
+
+    <lightning:button variant="destructive" label="Test Error Log" onclick="{!c.handleErrorClick}"/>
+    <lightning:button variant="success" label="Test Info Log" onclick="{!c.handleInfoClick}"/>
+    <lightning:button label="Test Debug Log" onclick="{!c.handleDebugClick}"/>
+</aura:component>
