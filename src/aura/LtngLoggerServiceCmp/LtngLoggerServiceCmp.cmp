@@ -1,5 +1,4 @@
-<aura:component description="Logger Service Component to be used as a service in other
-    components to add logging info to a common logging service"
+<aura:component description="Logger Service Component to be used as a service in other components to add logging info to a common logging service"
                 controller="LtngLoggerServiceController">
 
     <!-- Add Log API for component -->
