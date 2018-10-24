@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <auraComponent>TestLoggerServiceCmp</auraComponent>
+    <description>Tab to expose the component for testing logger service.</description>
+    <label>Test Logger Service</label>
+    <mobileReady>false</mobileReady>
+    <motif>Custom44: Hammer</motif>
+</CustomTab>
